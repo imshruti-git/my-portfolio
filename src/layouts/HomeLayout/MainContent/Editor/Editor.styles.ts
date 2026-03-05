@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
-  background-color: ${({ theme }) => theme.color.bg};
-  color: ${({ theme }) => theme.color.text};
+  border: ${({ theme }) => `1px solid ${theme?.color?.borderColor}`};
+  border-radius: 15px;
 `;

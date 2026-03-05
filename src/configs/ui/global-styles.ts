@@ -1,9 +1,9 @@
 // GlobalStyles.js
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   :root {
-    --font-primary: ${({ theme }) => theme.font.primary.light};
+    --font-primary: ${({ theme }) => theme.font.primary};
     --color-text: ${({ theme }) => theme.color.text?.light};
     --color-background: ${({ theme }) => theme.color.bg.light};
   }
@@ -25,6 +25,7 @@ const GlobalStyles = createGlobalStyle`
     background-color: var(--color-background);
     color: var(--color-text);
     margin: 0;
+  
   }
 
   /* Add more global styles as needed */

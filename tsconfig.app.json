@@ -7,11 +7,12 @@
     "module": "ESNext",
     "types": ["vite/client"],
     "skipLibCheck": true,
-    "paths":{
-      "@/*":["./src/*"],
-      "@configs/*":["./src/configs/*"],
-      "@constants/*":["./src/constants/*"],
-      "@containers/*":["./src/containers/*"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@context/*": ["./src/context/*"]
     },
 
     /* Bundler mode */

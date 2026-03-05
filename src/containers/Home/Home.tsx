@@ -1,10 +1,12 @@
-import { Flex } from 'antd'
-import React from 'react'
+import MainContent from "../../layouts/HomeLayout/MainContent/MainContent";
+import TopBar from "../../layouts/HomeLayout/TopBar/TopBar";
+import { Wrapper } from "./Home.styles";
 
 export default function Home() {
   return (
-    <Flex>
-        <button>Theme change</button>
-    </Flex>
-  )
+    <Wrapper>
+      <TopBar />
+      <MainContent />
+    </Wrapper>
+  );
 }
