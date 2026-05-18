@@ -26,7 +26,7 @@ export default function useLogic() {
       };
 
       setMessages((cur) => [...cur, standardAnswer]);
-    }, [900]);
+    }, 900);
   }
   // function handleSubmit() {
   //   alert("here");

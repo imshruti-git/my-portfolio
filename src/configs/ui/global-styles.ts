@@ -4,8 +4,8 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
   :root {
     --font-primary: ${({ theme }) => theme.font.primary};
-    --color-text: ${({ theme }) => theme.color.text?.light};
-    --color-background: ${({ theme }) => theme.color.bg.light};
+    --color-text: ${({ theme }) => theme.color.text};
+    --color-background: ${({ theme }) => theme.color.bg};
   }
 
   *,

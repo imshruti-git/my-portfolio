@@ -3,7 +3,7 @@ import { ReactNode, type Dispatch, type SetStateAction } from "react";
 
 export interface IHomeContext {
   messages: ConversationI[];
-  setMessages: Dispatch<SetStateAction<ConversationI>>;
+  setMessages: Dispatch<SetStateAction<ConversationI[]>>;
 }
 
 export interface ProviderProps {

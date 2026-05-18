@@ -3,7 +3,7 @@ import type { ConversationI } from "@/utils/types/conversation";
 import { queryAnswers } from "./Shortcuts.utils";
 
 export default function useLogic() {
-  const { setMessages, messages } = useHomeContext();
+  const { setMessages } = useHomeContext();
   // FUNCTIONS
   function getQueryAnswer(query: ConversationI) {
     // add own msg in list
@@ -15,7 +15,7 @@ export default function useLogic() {
       }
       console.log(foundAnswer, "### this is id");
       setMessages((cur) => [...cur, foundAnswer]);
-    }, [900]);
+    }, 900);
   }
 
   return { getQueryAnswer };
