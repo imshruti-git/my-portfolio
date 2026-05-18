@@ -7,7 +7,7 @@ export default function useGettersAndSetters(): Omit<
   ThemeContextType,
   "children"
 > {
-  const [curTheme, setCurTheme] = useState<Theme>("LIGHT");
+  const [curTheme, setCurTheme] = useState<Theme>("DARK");
 
   function getTheme(curTheme: string): DefaultTheme | undefined {
     switch (curTheme) {

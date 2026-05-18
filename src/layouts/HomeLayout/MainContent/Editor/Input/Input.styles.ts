@@ -7,11 +7,12 @@ export const TextArea = styled(InputAntd)`
   background: inherit;
   height: 40px;
   outline: none;
+  color: ${(props) => props?.theme?.color?.text};
 
   &:hover,
   &:active,
   &:focus,
-  &focus:within {
+  &:focus-within {
     box-shadow: none;
     outline: none;
     background: inherit;

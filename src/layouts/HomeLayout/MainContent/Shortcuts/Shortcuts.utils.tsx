@@ -6,25 +6,61 @@ export const shortcutsList: ConversationI[] = [
     title: "About Me",
     ownMsg: true,
     msg: "Tell me about yourself.",
+    icon: "👋",
   },
   {
     id: 2,
     title: "Education",
     ownMsg: true,
-    msg: "Tell me about your education",
+    msg: "What is your educational background?",
+    icon: "🎓",
   },
   {
     id: 3,
+    title: "Work Experience",
+    ownMsg: true,
+    msg: "What is your work experience?",
+    icon: "💼",
+  },
+  {
+    id: 4,
+    title: "Skills",
+    ownMsg: true,
+    msg: "What are your technical skills?",
+    icon: "⚡",
+  },
+
+  {
+    id: 6,
     title: "Contact",
     ownMsg: true,
-    msg: "How can i contact you",
+    msg: "How can I contact you?",
+    icon: "📧",
   },
 ];
 
 export const queryAnswers: ConversationI[] = [
   {
     id: 1,
-    msg: "I am a committed team player with a strong ability to learn quickly and perform well under pressure. Highly adaptable to new environments, I continuously strive for personal and professional growth. I aim to apply my skills, experience, and dedication to a reputable organization, contributing to its success while advancing my own development. I am seeking a role that values creativity, flexibility, and resourcefulness, and offers opportunities for career advancement. I am eager to join a respected organization where I can make a meaningful impact and support its long-term growth.",
+    msg: `
+        Hi! I'm **Shruti Vaidya** 👋  
+
+        I'm a **Software Developer** with 3+ years of experience** in frontend and web application development.
+
+        I specialize in building modern applications using:
+        - React
+        - TypeScript
+        - JavaScript
+
+        At **Treeleaf Technologies**, I worked on:
+        - AI chatbot platforms
+        - Real-time messaging systems
+        - CRM dashboards
+
+        I love creating **clean user interfaces**, solving problems, and building meaningful digital experiences.
+
+        Feel free to ask me about my **experience, skills, or projects!**
+`,
     ownMsg: false,
     timestamp: Date.now(),
   },

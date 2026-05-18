@@ -4,4 +4,5 @@ export interface ConversationI {
   msg: string;
   ownMsg: boolean;
   timestamp?: number;
+  icon?: string;
 }

@@ -18,6 +18,5 @@ export default function useLogic() {
     }, [900]);
   }
 
-  console.log(messages, "messages");
   return { getQueryAnswer };
 }

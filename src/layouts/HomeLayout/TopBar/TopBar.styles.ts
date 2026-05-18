@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   padding: 0px 100px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 4px rgba(232, 226, 226, 0.15);
 
   div {
     cursor: pointer;
@@ -13,6 +13,6 @@ export const Wrapper = styled.div`
 
 export const Avatar = styled.div`
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
   background: #d2d2d2;
 `;

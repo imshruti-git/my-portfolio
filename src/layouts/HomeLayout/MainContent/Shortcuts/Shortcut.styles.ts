@@ -6,22 +6,29 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   gap: 10px;
-
-  overflow-y: scroll;
-  max-height: calc(100vh - 214px);
 `;
 
 export const StyledCard = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: ${({ theme }) => `1px solid ${theme?.color?.borderColor}`};
-  border-radius: 8px;
-  padding: 8px;
+  border: 1px solid #242222ff;
+  border-radius: 16px;
+  padding: 0 8px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-  width: 100px;
-  height: 100px;
+  height: 90px;
   cursor: pointer;
+  width: 210px;
+  font-size: 25px;
+
+  .p-t {
+    font-size: 16px;
+  }
+
+  .s-t {
+    font-size: 14px;
+    color: ${({ theme }) => theme?.color?.secondaryText};
+  }
 
   &: hover {
     background: ${({ theme }) => theme?.color?.hoverColor};
