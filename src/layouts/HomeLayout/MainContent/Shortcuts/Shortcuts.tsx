@@ -20,7 +20,7 @@ export default function Shortcuts() {
   return (
     <Wrapper>
       <Flex gap={15} vertical align="center">
-        <Flex gap={15}>
+        <Flex gap={15} flex="wrap" wrap justify="center">
           {shortcutsList?.slice(0, 3)?.map?.((x) => (
             <StyledCard key={x?.id} onClick={() => getQueryAnswer(x)}>
               <Flex gap={10}>
@@ -33,7 +33,7 @@ export default function Shortcuts() {
             </StyledCard>
           ))}
         </Flex>
-        <Flex gap={15}>
+        <Flex gap={15} wrap justify="center">
           {shortcutsList?.slice(3, 5)?.map?.((x) => (
             <StyledCard key={x?.id} onClick={() => getQueryAnswer(x)}>
               <Flex gap={10}>

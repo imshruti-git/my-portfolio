@@ -12,6 +12,10 @@ export const InnerContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+  }
 `;
 
 export const HeaderContent = styled.div`
@@ -31,6 +35,7 @@ export const HeaderContent = styled.div`
   .p-t {
     font-size: 40px;
     font-weight: 500;
+    text-align: center;
   }
 
   .s-t {

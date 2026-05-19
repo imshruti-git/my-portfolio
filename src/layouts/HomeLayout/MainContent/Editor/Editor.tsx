@@ -10,7 +10,12 @@ export default function Editor() {
     <Wrapper>
       <Form form={form} onFinish={handleSubmit}>
         <Form.Item name="text">
-          <Input />
+          <Input
+            onPressEnter={(e) => {
+              e.preventDefault();
+              form.submit();
+            }}
+          />
         </Form.Item>
         <Action />
       </Form>

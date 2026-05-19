@@ -12,4 +12,8 @@ export const BubbleWrapper = styled.div<BubbleI>`
       ? props?.theme?.color?.bubbleColor
       : props?.theme?.color?.aiColor};
   margin-left: ${(props) => props?.ownMsg && "auto"};
+
+  @media only screen and (max-width: 600px) {
+    max-width: 100%;
+  }
 `;

@@ -9,6 +9,10 @@ export const Wrapper = styled.div`
   div {
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 600px) {
+    padding: 0px 10px;
+  }
 `;
 
 export const Avatar = styled.div`

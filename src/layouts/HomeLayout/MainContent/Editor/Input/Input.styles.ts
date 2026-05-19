@@ -1,7 +1,7 @@
 import { Input as InputAntd } from "antd";
 import styled from "styled-components";
 
-export const TextArea = styled(InputAntd)`
+export const TextArea = styled(InputAntd.TextArea)`
   border: none;
   border-radius: 15px;
   background: inherit;
