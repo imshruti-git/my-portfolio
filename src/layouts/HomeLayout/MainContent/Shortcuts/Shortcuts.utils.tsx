@@ -54,7 +54,7 @@ export const queryAnswers: ConversationI[] = [
   },
   {
     id: 2,
-    msg: `## 🎓 Education\n\nI completed my **Bachelor of Business Information Systems (BBIS)** from Little Angel's Collegs of Management affiliated to **Kathmandu University**, and graduated in **2021**.\n\nHonestly, it was a pretty unique degree with a blend of business thinking and technical depth. At the time I wasn't sure how they'd fit together, but looking back, it's been one of my biggest strengths. I understand both the **developer side** and the **business impact** of what I build.\n\nIt's also what drew me toward frontend because it sits right at that intersection of **user needs, design, and engineering**.\n\nAnd the learning hasn't stopped there. I'm currently pursuing my **Master's degree** in Software Engineering, because I believe there's always more to understand and explore. 📚`,
+    msg: `## 🎓 Education\n\nI completed my **Bachelor of Business Information Systems (BBIS)** from Little Angel's Collegs of Management affiliated to **Kathmandu University**, and graduated in **2021**.\n\nHonestly, it was a pretty unique degree with a blend of business thinking and technical depth. At the time I wasn't sure how they'd fit together, but looking back, it's been one of my biggest strengths. I understand both the **developer side** and the **business impact** of what I build.\n\nIt's also what drew me toward frontend because it sits right at that intersection of **user needs, design, and engineering**.\n\nAnd the learning hasn't stopped there. I'm currently pursuing my **Master's degree** in Software Engineering at Islington College, because I believe there's always more to understand and explore. 📚`,
     ownMsg: false,
     timestamp: Date.now(),
   },
