@@ -13,7 +13,6 @@ export default function useLogic() {
       if (!foundAnswer) {
         return;
       }
-      console.log(foundAnswer, "### this is id");
       setMessages((cur) => [...cur, foundAnswer]);
     }, 900);
   }

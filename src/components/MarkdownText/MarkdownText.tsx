@@ -7,6 +7,11 @@ export default function MarkdownText({ text }: { text: string }) {
           {props.children}
         </p>
       ),
+      a: ({ ...props }) => (
+        <a {...props} style={{ color: "#4040a6" }}>
+          {props.children}
+        </a>
+      ),
       pre: ({ ...props }) => (
         <pre {...props} style={{ margin: "0", whiteSpace: "pre-line" }}>
           {props.children}

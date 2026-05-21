@@ -34,7 +34,7 @@ export default function Shortcuts() {
           ))}
         </Flex>
         <Flex gap={15} wrap justify="center">
-          {shortcutsList?.slice(3, 5)?.map?.((x) => (
+          {shortcutsList?.slice(3, 6)?.map?.((x) => (
             <StyledCard key={x?.id} onClick={() => getQueryAnswer(x)}>
               <Flex gap={10}>
                 {x?.icon}

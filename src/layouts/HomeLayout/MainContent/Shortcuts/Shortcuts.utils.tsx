@@ -29,8 +29,15 @@ export const shortcutsList: ConversationI[] = [
     msg: "What are your technical skills?",
     icon: "⚡",
   },
+  // {
+  //   id: 5,
+  //   title: "Projects",
+  //   ownMsg: true,
+  //   msg: "Check out my personal projects.",
+  //   icon: "🛠️",
+  // },
   {
-    id: 5,
+    id: 6,
     title: "Contact",
     ownMsg: true,
     msg: "How can I contact you?",
@@ -53,7 +60,7 @@ export const queryAnswers: ConversationI[] = [
   },
   {
     id: 3,
-    msg: `## 💼 Work Experience\n\nMost of my career has been with **Treeleaf Technologies** — I actually started there as an intern and grew into a full Software Developer role over time. Here's how that journey looked:\n\n---\n\n### 🚀 Software Developer\n📅 November 2022 – November 2025\n\nThis is where things got really exciting. Some highlights:\n\n- Led the frontend of a **CRM platform** with real-time analytics dashboards and a ticketing workflow — it genuinely made the support team's day-to-day so much smoother\n- Built an **AI chatbot platform** where non-technical users could customize the entire UI — layouts, themes, button placements — without touching a single line of code. That one was a fun challenge! 🤖\n- Engineered a **real-time messaging system** using MQTT with end-to-end encryption — reliability and security were non-negotiable here\n- Added **voice interaction** features using OpenAI Web APIs — text-to-speech and speech-to-text that felt seamless to use\n- Spent a lot of time on **performance** too — lazy loading, memoization, reducing build size — the kind of work users never notice, but definitely feel\n\n---\n\n### 🌱 Frontend Traineeship\n📅 June 2022 – October 2022\n\nThis was where I started getting real-world exposure. I was building features, communicating with clients, debugging issues, and learning how a real product team operates. Also where I really fell in love with **React and Redux**.\n\n---\n\n### 👶 Frontend Intern\n📅 March 2022 – June 2022\n\nEveryone starts somewhere! I began with **responsive email templates** and contributing to website builds. Small tasks, but they taught me the importance of cross-device compatibility and pixel-perfect UI — habits I still carry today.`,
+    msg: `## 💼 Work Experience\n\nMost of my career has been with **Treeleaf Technologies** — I actually started there as an intern and grew into a full Software Developer role over time. Here's how that journey looked:\n\n---\n\n### 🚀 Software Developer\n📅 November 2022 – November 2025\n\nThis is where things got really exciting. Some highlights:\n\n- Led the frontend of a **CRM platform** with real-time analytics dashboards and a ticketing workflow — it genuinely made the support team's day-to-day so much smoother\n- Built an **AI chatbot platform** where non-technical users could customize the entire UI — layouts, themes, button placements — without touching a single line of code. That one was a fun challenge! 🤖\n- Engineered a **real-time messaging system** using MQTT with end-to-end encryption — reliability and security were non-negotiable here\n- Added **voice interaction** features using OpenAI Web APIs — text-to-speech and speech-to-text that felt seamless to use\n- Spent a lot of time on **performance** too — lazy loading, memoization, reducing build size — the kind of work users never notice, but definitely feel\n\n---\n\n### 🌱 Frontend Traineeship\n📅 June 2022 – October 2022\n\nThis was where I started getting real-world exposure. I was building features, communicating with clients, debugging issues, and learning how a real product team operates.\n\n---\n\n### 👶 Frontend Intern\n📅 March 2022 – June 2022\n\nEveryone starts somewhere! I began with **responsive email templates** and contributing to website builds. Small tasks, but they taught me the importance of cross-device compatibility and pixel-perfect UI — habits I still carry today.`,
     ownMsg: false,
     timestamp: Date.now(),
   },
@@ -63,9 +70,15 @@ export const queryAnswers: ConversationI[] = [
     ownMsg: false,
     timestamp: Date.now(),
   },
+  // {
+  //   id: 5,
+  //   msg: `## 🛠️ Personal Projects\n\nHere are some projects I've built on my own to explore ideas and sharpen my skills!\n\n---\n\n### Movie Dash Time\n🔗 (https://moviedashtime.netlify.app/) \n\n`,
+  //   ownMsg: false,
+  //   timestamp: Date.now(),
+  // },
   {
-    id: 5,
-    msg: `## 📬 Let's Connect!\n\nI'm always open to interesting conversations — whether it's about a potential opportunity, a project idea, or just geeking out about frontend stuff. Don't hesitate to reach out! 😊\n\n- 📧 **Email:** vaidya.shruti1108@gmail.com\n- 📞 **Phone:** +977-9843419511\n- 📍 **Location:** Sankhamool, Kathmandu, Nepal\n- 💼 **LinkedIn:** [Let's connect on LinkedIn](https://linkedin.com)\n\nI try to respond promptly and I genuinely enjoy meeting new people in the tech space. Looking forward to hearing from you! 🙌`,
+    id: 6,
+    msg: `## 📬 Let's Connect!\n\nI'm always open to interesting conversations — whether it's about a potential opportunity, a project idea, or just geeking out about frontend stuff. Don't hesitate to reach out! 😊\n\n- 📧 **Email:** vaidya.shruti1108@gmail.com\n- 📞 **Phone:** +977-9843419511\n- 📍 **Location:** Maharajgunj, Kathmandu, Nepal\n- 💼 **LinkedIn:** [Let's connect on LinkedIn](https://linkedin.com)\n\nI try to respond promptly and I genuinely enjoy meeting new people in the tech space. Looking forward to hearing from you! 🙌`,
     ownMsg: false,
     timestamp: Date.now(),
   },
